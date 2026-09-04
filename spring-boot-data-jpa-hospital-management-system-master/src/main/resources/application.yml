@@ -16,7 +16,7 @@ git push -u origin mainspring:
         client-secret: ${GITHUB_CLIENT_SECRET:}
       twitter:
         client-id: ${TWITTER_CLIENT_ID:}
-        client-secret: ${TWITTER_CLIENT_SECRET:}j
+        client-secret: ${TWITTER_CLIENT_SECRET:}
         redirect-uri: "{baseUrl}/login/oauth2/code/twitter"
         authorization-grant-type: authorization_code
         scope:
